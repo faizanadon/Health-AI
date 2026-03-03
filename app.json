@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "HealthAI",
-    "slug": "healthai",
+    "slug": "health-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,10 +11,15 @@
       "resizeMode": "contain",
       "backgroundColor": "#0A0F1E"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.lgu.healthai"
+      "bundleIdentifier": "com.lgu.healthai",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +30,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45ebffbe-d891-45aa-8171-79bbcf0efd0a"
+      }
+    },
+    "owner": "faiznnawazs-organization"
   }
 }
