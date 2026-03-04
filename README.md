@@ -38,3 +38,4 @@ eas build --platform android --profile preview
 - Expo Linear Gradient
 - Anthropic Claude API
 # Health-AI
+# Health-AI-V2
